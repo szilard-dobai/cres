@@ -5,7 +5,19 @@ import tkinter as tk
 
 root = tk.Tk()  # instantiate tkinter Tk class
 
-questionLabel = tk.StringVar()  # create tkinter StringVar objects
+question_label_text = tk.StringVar()  # create tkinter StringVar objects
+values = {
+    "a": {"RadioButton 1": "1",
+          "RadioButton 2": "2",
+          "RadioButton 3": "3",
+          "RadioButton 4": "4",
+          "RadioButton 5": "5"},
+    "b": {"RadioButton 6": "1",
+          "RadioButton 7": "2",
+          "RadioButton 8": "3",
+          "RadioButton 9": "4",
+          "RadioButton 0": "5"}
+}
 
 
 class Page(tk.Frame):
@@ -32,8 +44,20 @@ class WelcomePage(Page):
 class FormPage(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
-        label = tk.Label(self, text="This is page 2")
-        label.pack(side="top", fill="both", expand=True)
+        label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21))
+        label_title.pack(side="top", expand=False, pady=[50, 0])
+
+        label_description = tk.Label(self, text="Car Recommendation Expert System", font=("Courier", 12))
+        label_description.pack(side="top", fill="x", expand=False, pady=[0, 50])
+
+        question_label = tk.Label(self, textvariable=question_label_text)
+        question_label.pack(side="top", fill="both", expand=True)
+
+        self.radios = []
+        for (text, value) in values[question_label_text.get()].items():
+            radio = tk.Radiobutton(self, text=text, value=value)
+            radio.pack(side="top", ipady=5)
+            self.radios.append(radio)
 
 
 class ResultPage(Page):
@@ -70,6 +94,10 @@ class MainView(tk.Frame):
                 p2.lift()
                 button_text.set("Next")
                 current_page = "p2"
+                print(p2.radios)
+                for r in p2.radios:
+                    r.pack_forget()
+                
 
         button = tk.Button(button_frame, textvariable=button_text, command=button_click)
 

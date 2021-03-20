@@ -9,8 +9,8 @@ results = []
 window_background = "#F2F2F4"
 text_color = "#2D2F57"
 
-# root.config(background=window_background)                               # set background color
 
+# root.config(background=window_background)                               # set background color
 
 
 # frame = tk.Frame(root, width=1200, bg=window_background, pady=10)
@@ -98,15 +98,15 @@ init()
 
 # add title to window
 root.wm_title("Car Recommendation Expert System")
-questionLabel.set("bbbbbbbbb")
+question_label_text.set("a")
+
 
 def test():
-    questionLabel.set("AAAAAA")
+    question_label_text.set("b")
 
 
 # # call looping function after 1000ms
 root.after(3000, test)
-
 
 main = MainView(root)
 
