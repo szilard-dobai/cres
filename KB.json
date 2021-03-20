@@ -1,0 +1,31 @@
+{
+   "KB":[
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_seem_rich",
+            "hope_you_like_debt":"love_it"
+         },
+         "car":{
+            "id":"mercedes_cls",
+            "name":"MERCEDES CLS",
+            "description":"The Mercedes CLS is a stylish, quick and comfortable executive saloon with room for four passengers and their luggage. The Mercedes CLS is a sleek, low-slung four-door luxury coupe that\\'s designed to blend desirability with practicality."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_seem_rich",
+            "hope_you_like_debt":"love_it",
+            "run":"diesel"
+         },
+         "car":{
+            "id":"audi_a7",
+            "name":"AUDI A7",
+            "description":"A fastback roofline gives the A7 both flair and hatchback practicality, while the luxury cabin pampers occupants. Standard all-wheel drive helps get all of the supercharged 3.0-liter V-6\\'s 333 hp to the ground through an eight-speed automatic. A taut suspension and confident brakes round out the A7’s performance credentials. Smartphone integration with Apple CarPlay and Android Auto is standard. Night vision, automated emergency braking, and adaptive cruise control are optional."
+         }
+      }
+   ]
+}
