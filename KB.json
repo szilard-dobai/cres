@@ -31,7 +31,8 @@
          "rules":{
             "why":"transport",
             "care_about":"being_active_doing_things",
-            "korean_take":"no_korea"
+            "korean_take":"no_korea",
+            "cash_situation":"bad"
          },
          "car":{
             "id":"honda_fit",
@@ -71,7 +72,8 @@
             "want_think":"i_seem_rich",
             "like_noise":"bring_noise",
             "hope_you_like_debt":"but_i_dont",
-			"korean_take": "why_not"
+            "korean_take":"why_not",
+            "with_people":"two_ish"
          },
          "car":{
             "id":"hyundai_genesis",
@@ -85,7 +87,7 @@
             "care_about":"what_people_think_of_me",
             "run":"electricity",
             "want_think":"i_seem_rich",
-			"korean_take":"why_not",
+            "korean_take":"why_not",
             "hope_you_like_debt":"but_i_dont"
          },
          "car":{
@@ -97,9 +99,9 @@
       {
          "rules":{
             "why":"transport",
-            "want_think":"no_i_really_m_rich",
+            "want_think":"no_i_really_am_rich",
             "want_wind_in_hair":"its_okey",
-            "brand_nob":"god_yes"
+            "brand_snob":"yes"
          },
          "car":{
             "id":"jaguar_xj",
@@ -111,9 +113,9 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"no_i_really_m_rich",
+            "want_think":"no_i_really_am_rich",
             "cylinder":"eight",
-            "brand_nob":"god_yes"
+            "brand_snob":"yes"
          },
          "car":{
             "id":"audi_a8",
@@ -126,7 +128,7 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_wind_in_hair":"its_okey",
-            "brand_nob":"who cares"
+            "brand_snob":"who_cares"
          },
          "car":{
             "id":"lincoln_mks",
@@ -138,9 +140,9 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"no_i_really_m_rich",
+            "want_think":"no_i_really_am_rich",
             "cylinder":"eight",
-            "brand_nob":"who cares"
+            "brand_snob":"who_cares"
          },
          "car":{
             "id":"infiniti_m37",
@@ -152,7 +154,7 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"no_i_really_m_rich",
+            "want_think":"no_i_really_am_rich",
             "want_wind_in_hair":"oh_yeah"
          },
          "car":{
@@ -165,7 +167,8 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird"
+            "want_think":"i_am_weird",
+            "with_people":"two_three"
          },
          "car":{
             "id":"vw_beetle",
@@ -177,8 +180,9 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird",
-            "hope_you_like_debt":"but_i_dont"
+            "want_think":"i_am_weird",
+            "hope_you_like_debt":"but_i_dont",
+            "with_people":"two_ish"
          },
          "car":{
             "id":"fiat_500",
@@ -190,8 +194,9 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird",
-            "korean_take":"no_korea"
+            "want_think":"i_am_weird",
+            "korean_take":"no_korea",
+            "cant_parent":"cool_car"
          },
          "car":{
             "id":"scion_iq",
@@ -203,7 +208,7 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird",
+            "want_think":"i_am_weird",
             "korean_take":"no_korea",
             "fun_for_you":"slow_fast"
          },
@@ -217,7 +222,7 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird",
+            "want_think":"i_am_weird",
             "korean_take":"why_not",
             "fun_for_you":"slow_fast"
          },
@@ -231,7 +236,7 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird",
+            "want_think":"i_am_weird",
             "korean_take":"no_korea"
          },
          "car":{
@@ -244,7 +249,8 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_weird"
+            "want_think":"i_am_weird",
+            "korean_take":"why_not"
          },
          "car":{
             "id":"hyundai",
@@ -256,7 +262,7 @@
          "rules":{
             "why":"transport",
             "care_about":"what_people_think_of_me",
-            "want_think":"i_m_a_gangster_or_something"
+            "want_think":"i_am_a_gangster_or_something"
          },
          "car":{
             "id":"chrysler",
@@ -268,7 +274,8 @@
          "rules":{
             "why":"transport",
             "care_about":"all_the_money_i_dont_have",
-            "know_broke":"no_broke"
+            "know_broke":"no_broke",
+            "cash_situation":"bad"
          },
          "car":{
             "id":"honda",
@@ -319,7 +326,7 @@
             "why":"transport",
             "care_about":"the_environment",
             "run":"hybrid",
-            "want_think":"i_m_weird"
+            "want_think":"i_am_weird"
          },
          "car":{
             "id":"chevy_volt",
@@ -332,7 +339,7 @@
             "why":"transport",
             "care_about":"the_environment",
             "run":"hybrid",
-            "with_people":"four_plus"
+            "with_people":"two_three"
          },
          "car":{
             "id":"ford_fusion_hybrid",
@@ -380,7 +387,9 @@
          "rules":{
             "why":"transport",
             "care_about":"my_growing_family",
-            "cant_parent":"cool_car"
+            "cant_parent":"huge_family",
+            "cylinder":"four",
+            "run":"diesel"
          },
          "car":{
             "id":"bmw",
@@ -430,7 +439,8 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"six",
-            "engine":"front"
+            "engine":"front",
+            "cant_parent":"cool_car"
          },
          "car":{
             "id":"nissan_gt_r",
@@ -444,7 +454,8 @@
             "fun_for_you":"going_fast",
             "cylinder":"six",
             "engine":"front",
-            "with_people":"two_three"
+            "with_people":"two_three",
+            "cant_parent":"cool_car"
          },
          "car":{
             "id":"bmw_335",
@@ -472,7 +483,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"yes_loaded",
+            "loaded":"yes",
             "classy_shouty":"shouty"
          },
          "car":{
@@ -487,7 +498,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"yes_loaded",
+            "loaded":"yes",
             "classy_shouty":"shouty"
          },
          "car":{
@@ -502,7 +513,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"yes_loaded",
+            "loaded":"yes",
             "classy_shouty":"classy"
          },
          "car":{
@@ -544,7 +555,7 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"eight",
-            "with_people":"four_plus",
+            "with_people":"two_three",
             "german_engineering":"yes_german",
             "brand_snob":"yes"
          },
@@ -601,7 +612,7 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"eight",
-            "with_people":"two_three"
+            "with_people":"two_ish"
          },
          "car":{
             "id":"ford_mustang",
@@ -655,7 +666,7 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"ten",
-			"want_stick":"yes_stick"
+            "want_stick":"yes_stick"
          },
          "car":{
             "id":"dodge_viper",
@@ -669,7 +680,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"ten",
             "run":"petrol",
-			"want_stick":"no_stick"
+            "want_stick":"no_stick"
          },
          "car":{
             "id":"audi_r8",
@@ -793,7 +804,8 @@
             "why":"fun",
             "fun_for_you":"carving",
             "cash_situation":"comfort",
-            "hair_piece":"nhi"
+            "hair_piece":"nah",
+            "with_people":"two_ish"
          },
          "car":{
             "id":"porsche_boxster",
@@ -805,7 +817,8 @@
          "rules":{
             "why":"fun",
             "fun_for_you":"slow_fast",
-            "like_noise":"bring_noise"
+            "like_noise":"bring_noise",
+            "with_people":"two_ish"
          },
          "car":{
             "id":"fiat",

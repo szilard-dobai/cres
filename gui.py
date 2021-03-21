@@ -130,8 +130,27 @@ class ResultPage(Page):
         frame = ScrollableFrame(self)
 
         if results.__len__() == 0:
-            r_label = tk.Label(frame.scrollable_frame, text='Get a bike')
-            r_label.pack(side="top", ipady=5)
+            r_label_1 = tk.Label(frame.scrollable_frame, text='No suitable car found!', wraplength=375)
+            r_label_1.pack(side="top", ipady=5)
+
+            r_label_2 = tk.Label(frame.scrollable_frame,
+                                 text="We're sorry, but those requirements really threw us off.", wraplength=375)
+            r_label_2.pack(side="top", ipady=5)
+
+            r_label_3 = tk.Label(frame.scrollable_frame,
+                                 text="While we're improve our knowledge base, you can use good ol' faithful over here!",
+                                 wraplength=375)
+            r_label_3.pack(side="top", ipady=5)
+
+            # img = Image.open("./images/kia_soul.jpeg")
+            img = Image.open("./images/bus.jpeg")
+            wpercent = (375 / float(img.size[0]))
+            hsize = int((float(img.size[1]) * float(wpercent)))
+            img = img.resize((375, hsize), Image.ANTIALIAS)
+            render = ImageTk.PhotoImage(img)
+            image = tk.Label(frame.scrollable_frame, image=render)
+            image.image = render
+            image.pack()
         else:
             for res in results:
                 # img = Image.open("./images/kia_soul.jpeg")
