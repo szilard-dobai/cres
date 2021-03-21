@@ -5,14 +5,8 @@ from gui import *
 
 candidates = []
 
-window_background = "#F2F2F4"
-text_color = "#2D2F57"
-
 
 def init():
-    # step 1
-    # init function
-    #   read kb from file and initialize global candidates array
     with open('KB.json') as KB_file:
         kb = json.load(KB_file)
     for entry in kb['KB']:
@@ -36,16 +30,6 @@ def init():
 
 
 def run_iteration():
-    # step 3
-    # run algorithm
-    #   filter candidates array
-    #       check 'rules' object of each KB entry and if car.rules[obj].value === input, set car.rules[obj].flag = 1
-    #           if all flags are true, add car to results array, else continue looking for matches until no more candidates
-    #       else, skip object
-    #   if candidates length === 0 exit algorithm. (quick return)
-    #   go to candidates[0].rules and find first predicate with flag === 0, ask user input for that predicate
-    #       TO DO: try a random index, not [0]
-    #   repeat
     global inpQ, inpA, candidates
 
     interm = []
@@ -70,15 +54,6 @@ def run_iteration():
             break
     candidates = interm
     return True
-
-
-def show_results():
-    if results.__len__() == 0:
-        print("GET A BIKE")
-
-    for entry in results:
-        print(entry['car']['name'])
-        print(entry['car']['description'])
 
 
 class MainView(tk.Frame):
@@ -146,7 +121,6 @@ class MainView(tk.Frame):
                     results_page.show()
             elif current_page == "results_page":
                 root.quit()
-                return;
 
         button = tk.Button(button_frame, textvariable=button_text, command=button_click)
         button.pack(side="bottom")
@@ -156,13 +130,9 @@ class MainView(tk.Frame):
 
 init()
 
-# add title to window
-root.wm_title("Car Recommendation Expert System")
-question_label_text.set("a")
-
 main = MainView(root)
-
 main.pack(side="top", fill="both", expand=True)
-root.wm_geometry("400x800")
 
+root.wm_title("Car Recommendation Expert System")
+root.wm_geometry("400x800")
 root.mainloop()

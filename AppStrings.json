@@ -115,7 +115,7 @@
          },
          "answers":[
             {
-               "id":"no",
+               "id":"no_korea",
                "text":"Nice country, awful cars."
             },
             {
@@ -135,7 +135,7 @@
                "text":"It eez what it eez."
             },
             {
-               "id":"no",
+               "id":"no_broke",
                "text":"I hear Cuba is nice this time of year."
             }
          ]
@@ -179,7 +179,7 @@
          },
          "answers":[
             {
-               "id":"yes",
+               "id":"yes_loaded",
                "text":"Yes."
             },
             {
@@ -243,7 +243,7 @@
       {
          "question":{
             "id":"p_excites",
-            "text":"What'P' word excites you?"
+            "text":"What 'P' word excites you?"
          },
          "answers":[
             {
@@ -286,13 +286,13 @@
                "id":"zero_one",
                "text":"Enough for me and the blonde."
             },
-            {
-               "id":"two_three",
-               "text":"2 in the front, 2/3 in the back, right?"
+			{
+               "id":"two_ish",
+               "text":"Two can sit in the back but legs are optional."
             },
 			{
-               "id":"four_plus",
-               "text":"I want it to be like a bus."
+               "id":"two_three",
+               "text":"2 in the front, 2/3 in the back, right?"
             }
          ]
       },
@@ -319,11 +319,11 @@
          },
          "answers":[
             {
-               "id":"yes",
+               "id":"yes_german",
                "text":"Yes, please."
             },
             {
-               "id":"no",
+               "id":"no_german",
                "text":"Nope, too complicated."
             }
          ]
@@ -355,7 +355,7 @@
                "text":"Yes, make it a spaceship."
             },
             {
-               "id":"no",
+               "id":"no_loaded",
                "text":"I just want a steering wheel and pedals."
             }
          ]
@@ -404,7 +404,23 @@
             },
             {
                "id":"sure_do",
-               "text":"Did you forget I live in Romania ?"
+               "text":"Did you forget I live in Romania?"
+            }
+         ]
+      },
+	  {
+         "question":{
+            "id":"want_stick",
+            "text":"What type of transmission should the car have?"
+         },
+         "answers":[
+            {
+               "id":"yes_stick",
+               "text":"I want to drive like a MAN."
+            },
+            {
+               "id":"no_stick",
+               "text":"Three pedals are too much already..."
             }
          ]
       }

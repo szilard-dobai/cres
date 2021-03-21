@@ -31,7 +31,7 @@
          "rules":{
             "why":"transport",
             "care_about":"being_active_doing_things",
-            "korean_take":"no"
+            "korean_take":"no_korea"
          },
          "car":{
             "id":"honda_fit",
@@ -56,7 +56,7 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_think":"i_seem_rich",
-            "hope_you_like_dept":"but_i_dont"
+            "hope_you_like_debt":"but_i_dont"
          },
          "car":{
             "id":"mazda_6",
@@ -70,7 +70,8 @@
             "care_about":"what_people_think_of_me",
             "want_think":"i_seem_rich",
             "like_noise":"bring_noise",
-            "hope_you_like_dept":"but_i_dont"
+            "hope_you_like_debt":"but_i_dont",
+			"korean_take": "why_not"
          },
          "car":{
             "id":"hyundai_genesis",
@@ -84,7 +85,8 @@
             "care_about":"what_people_think_of_me",
             "run":"electricity",
             "want_think":"i_seem_rich",
-            "hope_you_like_dept":"but_i_dont"
+			"korean_take":"why_not",
+            "hope_you_like_debt":"but_i_dont"
          },
          "car":{
             "id":"kia_optima",
@@ -176,10 +178,10 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_think":"i_m_weird",
-            "hope_you_like_dept":"but_i_dont"
+            "hope_you_like_debt":"but_i_dont"
          },
          "car":{
-            "id":"fiat",
+            "id":"fiat_500",
             "name":"FIAT 500",
             "description":"The Fiat 500 is a rear-engine two-door, four passenger city car manufactured and marketed by Fiat Automobiles."
          }
@@ -189,7 +191,7 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_think":"i_m_weird",
-            "korean_take":"no"
+            "korean_take":"no_korea"
          },
          "car":{
             "id":"scion_iq",
@@ -202,7 +204,7 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_think":"i_m_weird",
-            "korean_take":"no",
+            "korean_take":"no_korea",
             "fun_for_you":"slow_fast"
          },
          "car":{
@@ -216,7 +218,7 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_think":"i_m_weird",
-            "korean_take":"no",
+            "korean_take":"why_not",
             "fun_for_you":"slow_fast"
          },
          "car":{
@@ -230,7 +232,7 @@
             "why":"transport",
             "care_about":"what_people_think_of_me",
             "want_think":"i_m_weird",
-            "korean_take":"no"
+            "korean_take":"no_korea"
          },
          "car":{
             "id":"mit",
@@ -266,7 +268,7 @@
          "rules":{
             "why":"transport",
             "care_about":"all_the_money_i_dont_have",
-            "know_broke":"no"
+            "know_broke":"no_broke"
          },
          "car":{
             "id":"honda",
@@ -281,7 +283,7 @@
             "know_broke":"fine"
          },
          "car":{
-            "id":"ford fiesta",
+            "id":"ford_fiesta",
             "name":"FORD FIESTA",
             "description":"Though the Fiesta might be small, it is still mighty fierce. An engaging five-speed manual comes standard; the optional six-speed dual-clutch sacrifices little in terms of driving fun. Available as a four-door sedan or five-door hatchback, its tight rear seat and scant standard equipment shouldnt be a deal-breaker. Judiciously equipped with options like Sync 3 infotainment and the 123-hp turbo three-cylinder,an upgrade from the base 120-hp four-cylinder.this little guy is a pleasure to drive."
          }
@@ -303,7 +305,7 @@
          "rules":{
             "why":"transport",
             "care_about":"all_the_money_i_dont_have",
-            "know_broke":"no",
+            "know_broke":"no_broke",
             "p_excites":"practical"
          },
          "car":{
@@ -316,13 +318,13 @@
          "rules":{
             "why":"transport",
             "care_about":"the_environment",
-            "run":"electricity",
+            "run":"hybrid",
             "want_think":"i_m_weird"
          },
          "car":{
             "id":"chevy_volt",
             "name":"CHEVY VOLT",
-            "description":"The weight-loss program and high-tech wizardry under the hood pay off with an impressive 17 mpg overall fuel economy from the 2.7-liter turbo V6—edging out the 5.3-liter V8 Chevrolet Silverado by one hay-hauling mpg. (The Ram 1500 diesel still leads the class with 20 mpg overall.) The F-150\\s 2.7- and beefier 3.5-liter turbo-V6 engines provide plenty of punch even at low revs, with quick acceleration and effortless towing ability."
+            "description":"Based on GM’s Delta platform, which also underpins Chevrolet’s Cruze hatchback and the Vauxhall Astra, the Volt is a four-seat hatch powered by lithium ion batteries that can be recharged by plugging into the mains, or on the go by its on-board 1.4-litre petrol engine."
          }
       },
       {
@@ -442,7 +444,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"six",
             "engine":"front",
-            "with_people":"four_plus"
+            "with_people":"two_three"
          },
          "car":{
             "id":"bmw_335",
@@ -456,7 +458,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"four",
             "engine":"front",
-            "with_people":"four_plus"
+            "with_people":"two_three"
          },
          "car":{
             "id":"cadillac_ats",
@@ -470,7 +472,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"yes",
+            "loaded":"yes_loaded",
             "classy_shouty":"shouty"
          },
          "car":{
@@ -485,7 +487,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"yes",
+            "loaded":"yes_loaded",
             "classy_shouty":"shouty"
          },
          "car":{
@@ -500,7 +502,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"yes",
+            "loaded":"yes_loaded",
             "classy_shouty":"classy"
          },
          "car":{
@@ -515,7 +517,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"zero_one",
-            "loaded":"mean_drunk"
+            "loaded":"no_loaded"
          },
          "car":{
             "id":"chevrolet",
@@ -528,8 +530,8 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"ten",
-            "with_people":"four_plus",
-            "german_engineering":"yessur"
+            "with_people":"two_three",
+            "german_engineering":"yes_german"
          },
          "car":{
             "id":"bmw_m5",
@@ -543,7 +545,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"four_plus",
-            "german_engineering":"yessur",
+            "german_engineering":"yes_german",
             "brand_snob":"yes"
          },
          "car":{
@@ -557,8 +559,8 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"eight",
-            "with_people":"four_plus",
-            "german_engineering":"yessur",
+            "with_people":"two_three",
+            "german_engineering":"yes_german",
             "hope_you_like_debt":"love_it"
          },
          "car":{
@@ -572,12 +574,12 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"eight",
-            "with_people":"four_plus"
+            "with_people":"two_three"
          },
          "car":{
             "id":"cadillac_cts",
             "name":"CADILLAC CTS-V",
-            "description":"The Good With 640 horsepower on tap, the 2016 Cadillac CTS-V isn\t just the most powerful Cadillac ever, it\\s also the most powerful car in its class. The V also brings an exceptional level of nimbleness to the table with standard high-performance brakes, magnetic control suspension and a tight chassis."
+            "description":"The Good With 640 horsepower on tap, the 2016 Cadillac CTS-V isn't just the most powerful Cadillac ever, it\\s also the most powerful car in its class. The V also brings an exceptional level of nimbleness to the table with standard high-performance brakes, magnetic control suspension and a tight chassis."
          }
       },
       {
@@ -586,7 +588,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"two_three",
-            "german_engineering":"i_like_pasta"
+            "german_engineering":"no_german"
          },
          "car":{
             "id":"maserati",
@@ -627,7 +629,7 @@
             "fun_for_you":"going_fast",
             "cylinder":"eight",
             "with_people":"two_three",
-            "want_stick":"yep"
+            "want_stick":"yes_stick"
          },
          "car":{
             "id":"dodge_challenger",
@@ -640,7 +642,7 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"twelve",
-            "want_stick":"yep"
+            "want_stick":"yes_stick"
          },
          "car":{
             "id":"aston",
@@ -652,7 +654,8 @@
          "rules":{
             "why":"fun",
             "fun_for_you":"going_fast",
-            "cylinder":"ten"
+            "cylinder":"ten",
+			"want_stick":"yes_stick"
          },
          "car":{
             "id":"dodge_viper",
@@ -665,7 +668,8 @@
             "why":"fun",
             "fun_for_you":"going_fast",
             "cylinder":"ten",
-            "run":"petrol"
+            "run":"petrol",
+			"want_stick":"no_stick"
          },
          "car":{
             "id":"audi_r8",

@@ -4,16 +4,14 @@ from PIL import ImageTk, Image
 
 
 def center_window(w=300, h=200):
-    # get screen width and height
     ws = root.winfo_screenwidth()
     hs = root.winfo_screenheight()
-    # calculate position x, y
     x = (ws / 2) - (w / 2)
     y = (hs / 2) - (h / 2)
     root.geometry('%dx%d+%d+%d' % (w, h, x, y))
 
 
-root = tk.Tk()  # instantiate tkinter Tk class
+root = tk.Tk()
 
 center_window(400, 800)
 
@@ -23,7 +21,7 @@ answers = dict()
 inpQ = ''
 inpA = ''
 
-question_label_text = tk.StringVar()  # create tkinter StringVar objects
+question_label_text = tk.StringVar()
 answer_var = tk.StringVar()
 
 
@@ -55,9 +53,6 @@ class ScrollableFrame(tk.Frame):
 
 
 class CreateToolTip(object):
-    '''
-    create a tooltip for a given widget
-    '''
 
     def __init__(self, widget, text='widget info'):
         self.widget = widget
@@ -70,9 +65,7 @@ class CreateToolTip(object):
         x, y, cx, cy = self.widget.bbox("insert")
         x += self.widget.winfo_rootx() + 25
         y += self.widget.winfo_rooty() + 20
-        # creates a toplevel window
         self.tw = tk.Toplevel(self.widget)
-        # Leaves only the label and removes the app window
         self.tw.wm_overrideredirect(True)
         self.tw.wm_geometry("+%d+%d" % (x, y))
         label = tk.Label(self.tw, text=self.text, justify='left',
@@ -96,7 +89,7 @@ class Page(tk.Frame):
 class WelcomePage(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
-        label_title = tk.Label(self, text="Welcome to C.R.E.S.!", font=("Courier", 21))
+        label_title = tk.Label(self, text="Welcome to C.R.E.S.!", font=("Courier", 21, "bold"))
         label_title.pack(side="top", expand=False, pady=[100, 0])
 
         label_description = tk.Label(self, text="Car Recommendation Expert System", font=("Courier", 12))
@@ -110,7 +103,7 @@ class FormPage(Page):
     def __init__(self, *args, **kwargs):
         global inpQ, questions, answers
         Page.__init__(self, *args, **kwargs)
-        label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21))
+        label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21, "bold"))
         label_title.pack(side="top", expand=False, pady=[50, 0])
 
         label_description = tk.Label(self, text="Car Recommendation Expert System", font=("Courier", 12))
@@ -128,7 +121,7 @@ class FormPage(Page):
 class ResultPage(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
-        label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21))
+        label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21, "bold"))
         label_title.pack(side="top", expand=False, pady=[50, 0])
 
         label_description = tk.Label(self, text="Car Recommendation Expert System", font=("Courier", 12))
@@ -141,8 +134,8 @@ class ResultPage(Page):
             r_label.pack(side="top", ipady=5)
         else:
             for res in results:
-                img = Image.open("./images/kia_soul.jpeg")
-                # img = Image.open("./images/" + res['car']['id'] + ".jpeg")
+                # img = Image.open("./images/kia_soul.jpeg")
+                img = Image.open("./images/" + res['car']['id'] + ".jpeg")
                 wpercent = (375 / float(img.size[0]))
                 hsize = int((float(img.size[1]) * float(wpercent)))
                 img = img.resize((375, hsize), Image.ANTIALIAS)
@@ -151,13 +144,11 @@ class ResultPage(Page):
                 image.image = render
                 image.pack()
 
-
                 tooltip_string = "Activated Rules:\n"
                 for rule in res['rules']:
                     tooltip_string += " -" + questions[rule]['text'] + '\n'
                     tooltip_string += "    " + answers[res['rules'][rule]['value']] + '\n'
                 CreateToolTip(image, tooltip_string)
-
 
                 r_label_name = tk.Label(frame.scrollable_frame, text=res['car']['name'])
                 r_label_name.pack(side="top", ipady=5)
