@@ -1,4 +1,5 @@
 import tkinter as tk
+
 from PIL import ImageTk, Image
 
 
@@ -53,6 +54,37 @@ class ScrollableFrame(tk.Frame):
         scrollbar.pack(side="right", fill="y")
 
 
+class CreateToolTip(object):
+    '''
+    create a tooltip for a given widget
+    '''
+
+    def __init__(self, widget, text='widget info'):
+        self.widget = widget
+        self.text = text
+        self.widget.bind("<Enter>", self.enter)
+        self.widget.bind("<Leave>", self.close)
+
+    def enter(self, event=None):
+        x = y = 0
+        x, y, cx, cy = self.widget.bbox("insert")
+        x += self.widget.winfo_rootx() + 25
+        y += self.widget.winfo_rooty() + 20
+        # creates a toplevel window
+        self.tw = tk.Toplevel(self.widget)
+        # Leaves only the label and removes the app window
+        self.tw.wm_overrideredirect(True)
+        self.tw.wm_geometry("+%d+%d" % (x, y))
+        label = tk.Label(self.tw, text=self.text, justify='left',
+                         background='white', relief='solid', borderwidth=1,
+                         font=("times", "10", "normal"))
+        label.pack(ipadx=1)
+
+    def close(self, event=None):
+        if self.tw:
+            self.tw.destroy()
+
+
 class Page(tk.Frame):
     def __init__(self, *args, **kwargs):
         tk.Frame.__init__(self, *args, **kwargs)
@@ -104,17 +136,29 @@ class ResultPage(Page):
 
         frame = ScrollableFrame(self)
 
-        load = Image.open("parrot.jpg")
-        render = ImageTk.PhotoImage(load)
-        img = tk.Label(self, image=render)
-        img.image = render
-        img.place(x=0, y=0)
-
         if results.__len__() == 0:
             r_label = tk.Label(frame.scrollable_frame, text='Get a bike')
             r_label.pack(side="top", ipady=5)
         else:
             for res in results:
+                img = Image.open("./images/kia_soul.jpeg")
+                # img = Image.open("./images/" + res['car']['id'] + ".jpeg")
+                wpercent = (375 / float(img.size[0]))
+                hsize = int((float(img.size[1]) * float(wpercent)))
+                img = img.resize((375, hsize), Image.ANTIALIAS)
+                render = ImageTk.PhotoImage(img)
+                image = tk.Label(frame.scrollable_frame, image=render)
+                image.image = render
+                image.pack()
+
+
+                tooltip_string = "Activated Rules:\n"
+                for rule in res['rules']:
+                    tooltip_string += " -" + questions[rule]['text'] + '\n'
+                    tooltip_string += "    " + answers[res['rules'][rule]['value']] + '\n'
+                CreateToolTip(image, tooltip_string)
+
+
                 r_label_name = tk.Label(frame.scrollable_frame, text=res['car']['name'])
                 r_label_name.pack(side="top", ipady=5)
 

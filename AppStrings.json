@@ -19,392 +19,392 @@
       {
          "question":{
             "id":"care_about",
-            "text":"What do you care about in a car ?"
+            "text":"What do you care about?"
          },
          "answers":[
             {
                "id":"being_active_doing_things",
-               "text":"Thinking about doing all sorts of things or being active"
+               "text":"Doing all sorts of things and being active."
             },
             {
                "id":"what_people_think_of_me",
-               "text":"Caring about what people will think of you"
+               "text":"What people think of me."
             },
             {
                "id":"all_the_money_i_dont_have",
-               "text":"Thinking about all the money you dont have"
+               "text":"All the money I don't have."
             },
             {
                "id":"the_environment",
-               "text":"Caring about the environment"
+               "text":"The environment."
             },
             {
                "id":"my_growing_family",
-               "text":"Caring about your growing family"
+               "text":"My growing family."
             }
          ]
       },
       {
          "question":{
             "id":"want_think",
-            "text":"If somebody see's you in the car, what do you want them to think ?"
+            "text":"If somebody sees you in the car, what do you want them to think?"
          },
          "answers":[
             {
                "id":"i_seem_rich",
-               "text":"That you seem rich ?"
+               "text":"That I seem rich."
             },
             {
                "id":"no_i_really_am_rich",
-               "text":"That you really are rich ?"
+               "text":"That I really am rich."
             },
             {
                "id":"i_am_weird",
-               "text":"That you're weird ?"
+               "text":"That I'm a different breed, very special."
             },
             {
                "id":"i_am_a_gangster_or_something",
-               "text":"That you are a gangster ?"
+               "text":"That I'm dangerous, like a gangster."
             }
          ]
       },
       {
          "question":{
             "id":"hope_you_like_debt",
-            "text":"Would you like to take a loan for buying a car ?"
+            "text":"Do you like being in debt?"
          },
          "answers":[
             {
                "id":"love_it",
-               "text":"Yes"
+               "text":"Yes."
             },
             {
                "id":"but_i_dont",
-               "text":"No"
+               "text":"No."
             }
          ]
       },
       {
          "question":{
             "id":"run",
-            "text":"What propulsion system should the car have ?"
+            "text":"What should the car run on?"
          },
          "answers":[
             {
                "id":"diesel",
-               "text":"Diesel Engine"
+               "text":"Diesel."
             },
             {
                "id":"electricity",
-               "text":"Electric Engine"
+               "text":"Full electric, baby!"
             },
             {
                "id":"petrol",
-               "text":"Petrol Engine"
+               "text":"Petrol."
             },
             {
                "id":"hybrid",
-               "text":"Hybrid System"
+               "text":"Hybrid."
             }
          ]
       },
       {
          "question":{
             "id":"korean_take",
-            "text":"Is it ok, if the care is made in Korea ?"
+            "text":"What's your take on Korea?"
          },
          "answers":[
             {
                "id":"no",
-               "text":"No"
+               "text":"Nice country, awful cars."
             },
             {
                "id":"why_not",
-               "text":"Sure, why not ?"
+               "text":"Love it!"
             }
          ]
       },
       {
          "question":{
             "id":"know_broke",
-            "text":"Is it ok if people will know you're broke because you have your future car ?"
+            "text":"What if people find out you're broke?"
          },
          "answers":[
             {
                "id":"fine",
-               "text":"Yup, it is what it is"
+               "text":"It eez what it eez."
             },
             {
                "id":"no",
-               "text":"Hopefully not"
+               "text":"I hear Cuba is nice this time of year."
             }
          ]
       },
       {
          "question":{
             "id":"like_noise",
-            "text":"Would you like that your car is noisy ?"
+            "text":"Would you like your car to be loud?"
          },
          "answers":[
             {
                "id":"bring_noise",
-               "text":"Bring it on, the more, the better"
+               "text":"WHAT? I CAN'T HEAR YOU!"
             },
             {
                "id":"keep_down",
-               "text":"Nope, my neighbours shouldn't know when i'm leaving the house"
+               "text":"Nope, my neighbours shouldn't know when I'm leaving the house."
             }
          ]
       },
       {
          "question":{
             "id":"want_wind_in_hair",
-            "text":"How do you feel about having your nice hair out in the open ?"
+            "text":"Would you like to feel that cool wind in your hair all the time?"
          },
          "answers":[
             {
                "id":"oh_yeah",
-               "text":"Would love it"
+               "text":"God, I'd love it!"
             },
             {
                "id":"its_okey",
-               "text":"It's alright, not a fan"
+               "text":"I guess as long as it's not raining..."
             }
          ]
       },
       {
          "question":{
             "id":"brand_snob",
-            "text":"Do you want to have a car from a well known premium brand ?"
+            "text":"Do you want to have a car from a well known premium brand?"
          },
          "answers":[
             {
                "id":"yes",
-               "text":"Yes"
+               "text":"Yes."
             },
             {
                "id":"who_cares",
-               "text":"Who would care ?"
+               "text":"Who cares?"
             }
          ]
       },
       {
          "question":{
             "id":"cylinder",
-            "text":"How many cylinders do you want to have ?"
+            "text":"How many cylinders should that engine have?"
          },
          "answers":[
             {
                "id":"four",
-               "text":"Four"
+               "text":"Four."
             },
             {
                "id":"six",
-               "text":"Six"
+               "text":"Six."
             },
             {
                "id":"eight",
-               "text":"Eight"
+               "text":"Eight."
             },
             {
                "id":"ten",
-               "text":"Ten"
+               "text":"Ten."
             },
             {
                "id":"twelve",
-               "text":"Twelve"
+               "text":"Twelve."
             }
          ]
       },
       {
          "question":{
             "id":"fun_for_you",
-            "text":"What do you consider as fun in a car?"
+            "text":"What's fun for you?"
          },
          "answers":[
             {
                "id":"being_awesome",
-               "text":"Being cool on the road"
+               "text":"Looking awesome on the road."
             },
             {
                "id":"going_fast",
-               "text":"Going fast"
+               "text":"Going fast."
             },
             {
                "id":"carving",
-               "text":"Going fast around curves"
+               "text":"Cutting corners as quickly as possible."
             },
             {
                "id":"slow_fast",
-               "text":"Having a slow looking car, but still be able to go fast"
+               "text":"Having a slow looking car, but still be able to go fast."
             }
          ]
       },
       {
          "question":{
             "id":"p_excites",
-            "text":"What p word do you want your next car to handle ? "
+            "text":"What'P' word excites you?"
          },
          "answers":[
             {
                "id":"practical",
-               "text":"Practicality"
+               "text":"Practicality."
             },
             {
                "id":"precise",
-               "text":"Preciseness on the road"
+               "text":"Preciseness."
             },
             {
                "id":"punchy",
-               "text":"Punchy feeling engine"
+               "text":"Punchiness."
             }
          ]
       },
       {
          "question":{
             "id":"cant_parent",
-            "text":"Are you a parent or no ?"
+            "text":"Do you want to have kids?"
          },
          "answers":[
             {
                "id":"cool_car",
-               "text":"No"
+               "text":"Hell, no."
             },
             {
-               "id":"walk_cat_in_park",
-               "text":"Yes"
+               "id":"huge_family",
+               "text":"I want to have a huge family!"
             }
          ]
       },
       {
          "question":{
             "id":"with_people",
-            "text":"How many people do you want to have place in the car ?"
+            "text":"How many seats should the car have?"
          },
          "answers":[
             {
                "id":"zero_one",
-               "text":"Max one more passenger"
-            },
-            {
-               "id":"four_plus",
-               "text":"Four or more passengers"
+               "text":"Enough for me and the blonde."
             },
             {
                "id":"two_three",
-               "text":"Max 3 passengers"
+               "text":"2 in the front, 2/3 in the back, right?"
+            },
+			{
+               "id":"four_plus",
+               "text":"I want it to be like a bus."
             }
          ]
       },
       {
          "question":{
             "id":"engine",
-            "text":"Where do you want the engine to be located ?"
+            "text":"Where do you want the engine to be located?"
          },
          "answers":[
             {
                "id":"front",
-               "text":"In the front so i can see it"
+               "text":"In the front so I can see it."
             },
             {
                "id":"behind_me",
-               "text":"Behind me"
+               "text":"Behind me."
             }
          ]
       },
       {
          "question":{
             "id":"german_engineering",
-            "text":"Would you like to have a german engineered car ?"
+            "text":"Would you like to have a piece of German engineering on your driveway?"
          },
          "answers":[
             {
                "id":"yes",
-               "text":"Yes, please"
+               "text":"Yes, please."
             },
             {
                "id":"no",
-               "text":"Nope, too complicated"
+               "text":"Nope, too complicated."
             }
          ]
       },
       {
          "question":{
             "id":"classy_shouty",
-            "text":"Would you like to have a more classic car, or should it be more obvious on the road"
+            "text":"Would you like your car to be more classy or more shouty?"
          },
          "answers":[
             {
                "id":"classy",
-               "text":"Classic"
+               "text":"As generic as possbile, I don't want to stand out."
             },
             {
                "id":"shouty",
-               "text":"I want it as obvious as possible"
+               "text":"MAKE WAY FOR THE KING!"
             }
          ]
       },
       {
          "question":{
             "id":"loaded",
-            "text":"Would you like your car to have all the possible options or no"
+            "text":"Would you like your car to be loaded with features?"
          },
          "answers":[
             {
                "id":"yes",
-               "text":"Yes"
+               "text":"Yes, make it a spaceship."
             },
             {
                "id":"no",
-               "text":"No"
+               "text":"I just want a steering wheel and pedals."
             }
          ]
       },
       {
          "question":{
             "id":"cash_situation",
-            "text":"What's you current cash situation"
+            "text":"What's you current cash situation?"
          },
          "answers":[
             {
                "id":"comfort",
-               "text":"I'm fine, i can afford a car"
+               "text":"I'm comfortable right now."
             },
             {
                "id":"bad",
-               "text":"Don't ask about it"
+               "text":"Don't ask me about it..."
             }
          ]
       },
       {
          "question":{
             "id":"hair_piece",
-            "text":"Do you have additional artificial hair in your ownership ?"
+            "text":"Do you have additional artificial hair in your ownership?"
          },
          "answers":[
             {
                "id":"nah",
-               "text":"Nope"
+               "text":"What?"
             },
             {
                "id":"none_of_your_business",
-               "text":"Why do you ask ? Would you like one too ?"
+               "text":"Why do you ask? Would you like some too?"
             }
          ]
       },
       {
          "question":{
             "id":"unpaved_road",
-            "text":"Do you need to have a car that can handle bad roads ?"
+            "text":"Do you need to have a car that can handle bad roads?"
          },
          "answers":[
             {
-               "id":"notso_hot_so",
-               "text":"Nope, roads i drive on are fine"
+               "id":"notso_hotso",
+               "text":"Nope, the roads I drive on are fine."
             },
             {
                "id":"sure_do",
-               "text":"Did you forget i live in romania ? That's mandatory"
+               "text":"Did you forget I live in Romania ?"
             }
          ]
       }
