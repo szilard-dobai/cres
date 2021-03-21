@@ -1,0 +1,412 @@
+{
+   "qa":[
+      {
+         "question":{
+            "id":"why",
+            "text":"What would you mainly use the car for?"
+         },
+         "answers":[
+            {
+               "id":"transport",
+               "text":"Getting from point A to point B."
+            },
+            {
+               "id":"fun",
+               "text":"Having fun, my dude."
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"care_about",
+            "text":"What do you care about in a car ?"
+         },
+         "answers":[
+            {
+               "id":"being_active_doing_things",
+               "text":"Thinking about doing all sorts of things or being active"
+            },
+            {
+               "id":"what_people_think_of_me",
+               "text":"Caring about what people will think of you"
+            },
+            {
+               "id":"all_the_money_i_dont_have",
+               "text":"Thinking about all the money you dont have"
+            },
+            {
+               "id":"the_environment",
+               "text":"Caring about the environment"
+            },
+            {
+               "id":"my_growing_family",
+               "text":"Caring about your growing family"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"want_think",
+            "text":"If somebody see's you in the car, what do you want them to think ?"
+         },
+         "answers":[
+            {
+               "id":"i_seem_rich",
+               "text":"That you seem rich ?"
+            },
+            {
+               "id":"no_i_really_am_rich",
+               "text":"That you really are rich ?"
+            },
+            {
+               "id":"i_am_weird",
+               "text":"That you're weird ?"
+            },
+            {
+               "id":"i_am_a_gangster_or_something",
+               "text":"That you are a gangster ?"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"hope_you_like_debt",
+            "text":"Would you like to take a loan for buying a car ?"
+         },
+         "answers":[
+            {
+               "id":"love_it",
+               "text":"Yes"
+            },
+            {
+               "id":"but_i_dont",
+               "text":"No"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"run",
+            "text":"What propulsion system should the car have ?"
+         },
+         "answers":[
+            {
+               "id":"diesel",
+               "text":"Diesel Engine"
+            },
+            {
+               "id":"electricity",
+               "text":"Electric Engine"
+            },
+            {
+               "id":"petrol",
+               "text":"Petrol Engine"
+            },
+            {
+               "id":"hybrid",
+               "text":"Hybrid System"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"korean_take",
+            "text":"Is it ok, if the care is made in Korea ?"
+         },
+         "answers":[
+            {
+               "id":"no",
+               "text":"No"
+            },
+            {
+               "id":"why_not",
+               "text":"Sure, why not ?"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"know_broke",
+            "text":"Is it ok if people will know you're broke because you have your future car ?"
+         },
+         "answers":[
+            {
+               "id":"fine",
+               "text":"Yup, it is what it is"
+            },
+            {
+               "id":"no",
+               "text":"Hopefully not"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"like_noise",
+            "text":"Would you like that your car is noisy ?"
+         },
+         "answers":[
+            {
+               "id":"bring_noise",
+               "text":"Bring it on, the more, the better"
+            },
+            {
+               "id":"keep_down",
+               "text":"Nope, my neighbours shouldn't know when i'm leaving the house"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"want_wind_in_hair",
+            "text":"How do you feel about having your nice hair out in the open ?"
+         },
+         "answers":[
+            {
+               "id":"oh_yeah",
+               "text":"Would love it"
+            },
+            {
+               "id":"its_okey",
+               "text":"It's alright, not a fan"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"brand_snob",
+            "text":"Do you want to have a car from a well known premium brand ?"
+         },
+         "answers":[
+            {
+               "id":"yes",
+               "text":"Yes"
+            },
+            {
+               "id":"who_cares",
+               "text":"Who would care ?"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"cylinder",
+            "text":"How many cylinders do you want to have ?"
+         },
+         "answers":[
+            {
+               "id":"four",
+               "text":"Four"
+            },
+            {
+               "id":"six",
+               "text":"Six"
+            },
+            {
+               "id":"eight",
+               "text":"Eight"
+            },
+            {
+               "id":"ten",
+               "text":"Ten"
+            },
+            {
+               "id":"twelve",
+               "text":"Twelve"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"fun_for_you",
+            "text":"What do you consider as fun in a car?"
+         },
+         "answers":[
+            {
+               "id":"being_awesome",
+               "text":"Being cool on the road"
+            },
+            {
+               "id":"going_fast",
+               "text":"Going fast"
+            },
+            {
+               "id":"carving",
+               "text":"Going fast around curves"
+            },
+            {
+               "id":"slow_fast",
+               "text":"Having a slow looking car, but still be able to go fast"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"p_excites",
+            "text":"What p word do you want your next car to handle ? "
+         },
+         "answers":[
+            {
+               "id":"practical",
+               "text":"Practicality"
+            },
+            {
+               "id":"precise",
+               "text":"Preciseness on the road"
+            },
+            {
+               "id":"punchy",
+               "text":"Punchy feeling engine"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"cant_parent",
+            "text":"Are you a parent or no ?"
+         },
+         "answers":[
+            {
+               "id":"cool_car",
+               "text":"No"
+            },
+            {
+               "id":"walk_cat_in_park",
+               "text":"Yes"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"with_people",
+            "text":"How many people do you want to have place in the car ?"
+         },
+         "answers":[
+            {
+               "id":"zero_one",
+               "text":"Max one more passenger"
+            },
+            {
+               "id":"four_plus",
+               "text":"Four or more passengers"
+            },
+            {
+               "id":"two_three",
+               "text":"Max 3 passengers"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"engine",
+            "text":"Where do you want the engine to be located ?"
+         },
+         "answers":[
+            {
+               "id":"front",
+               "text":"In the front so i can see it"
+            },
+            {
+               "id":"behind_me",
+               "text":"Behind me"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"german_engineering",
+            "text":"Would you like to have a german engineered car ?"
+         },
+         "answers":[
+            {
+               "id":"yes",
+               "text":"Yes, please"
+            },
+            {
+               "id":"no",
+               "text":"Nope, too complicated"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"classy_shouty",
+            "text":"Would you like to have a more classic car, or should it be more obvious on the road"
+         },
+         "answers":[
+            {
+               "id":"classy",
+               "text":"Classic"
+            },
+            {
+               "id":"shouty",
+               "text":"I want it as obvious as possible"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"loaded",
+            "text":"Would you like your car to have all the possible options or no"
+         },
+         "answers":[
+            {
+               "id":"yes",
+               "text":"Yes"
+            },
+            {
+               "id":"no",
+               "text":"No"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"cash_situation",
+            "text":"What's you current cash situation"
+         },
+         "answers":[
+            {
+               "id":"comfort",
+               "text":"I'm fine, i can afford a car"
+            },
+            {
+               "id":"bad",
+               "text":"Don't ask about it"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"hair_piece",
+            "text":"Do you have additional artificial hair in your ownership ?"
+         },
+         "answers":[
+            {
+               "id":"nah",
+               "text":"Nope"
+            },
+            {
+               "id":"none_of_your_business",
+               "text":"Why do you ask ? Would you like one too ?"
+            }
+         ]
+      },
+      {
+         "question":{
+            "id":"unpaved_road",
+            "text":"Do you need to have a car that can handle bad roads ?"
+         },
+         "answers":[
+            {
+               "id":"notso_hot_so",
+               "text":"Nope, roads i drive on are fine"
+            },
+            {
+               "id":"sure_do",
+               "text":"Did you forget i live in romania ? That's mandatory"
+            }
+         ]
+      }
+   ]
+}

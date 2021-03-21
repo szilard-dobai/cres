@@ -1,23 +1,56 @@
 import tkinter as tk
+from PIL import ImageTk, Image
 
-# from main import *
+
+def center_window(w=300, h=200):
+    # get screen width and height
+    ws = root.winfo_screenwidth()
+    hs = root.winfo_screenheight()
+    # calculate position x, y
+    x = (ws / 2) - (w / 2)
+    y = (hs / 2) - (h / 2)
+    root.geometry('%dx%d+%d+%d' % (w, h, x, y))
 
 
 root = tk.Tk()  # instantiate tkinter Tk class
 
+center_window(400, 800)
+
+results = []
+questions = dict()
+answers = dict()
+inpQ = ''
+inpA = ''
+
 question_label_text = tk.StringVar()  # create tkinter StringVar objects
-values = {
-    "a": {"RadioButton 1": "1",
-          "RadioButton 2": "2",
-          "RadioButton 3": "3",
-          "RadioButton 4": "4",
-          "RadioButton 5": "5"},
-    "b": {"RadioButton 6": "1",
-          "RadioButton 7": "2",
-          "RadioButton 8": "3",
-          "RadioButton 9": "4",
-          "RadioButton 0": "5"}
-}
+answer_var = tk.StringVar()
+
+
+class ScrollableFrame(tk.Frame):
+    def __init__(self, container, *args, **kwargs):
+        super().__init__(container, *args, **kwargs)
+        canvas = tk.Canvas(self)
+        scrollbar = tk.Scrollbar(self, orient="vertical", command=canvas.yview)
+        self.scrollable_frame = tk.Frame(canvas)
+
+        self.scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(
+                scrollregion=canvas.bbox("all")
+            )
+        )
+
+        canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+
+        canvas.configure(yscrollcommand=scrollbar.set)
+
+        def _on_mouse_wheel(event):
+            canvas.yview_scroll(-1 * int((event.delta / 120)), "units")
+
+        canvas.bind_all("<MouseWheel>", _on_mouse_wheel)
+
+        canvas.pack(side="left", fill="y")
+        scrollbar.pack(side="right", fill="y")
 
 
 class Page(tk.Frame):
@@ -38,10 +71,29 @@ class WelcomePage(Page):
         label_description.pack(side="top", fill="x", expand=False, pady=[0, 100])
 
         label_begin = tk.Label(self, text="Click the button below to begin!")
-        label_begin.pack(side="top", fill="x", expand=False)
+        label_begin.pack(side="top", fill="x", expand=True)
 
 
 class FormPage(Page):
+    def __init__(self, *args, **kwargs):
+        global inpQ, questions, answers
+        Page.__init__(self, *args, **kwargs)
+        label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21))
+        label_title.pack(side="top", expand=False, pady=[50, 0])
+
+        label_description = tk.Label(self, text="Car Recommendation Expert System", font=("Courier", 12))
+        label_description.pack(side="top", fill="x", expand=False, pady=[0, 50])
+
+        question_label = tk.Label(self, text=questions[question_label_text.get()]['text'], wraplength=375)
+        question_label.pack(side="top", fill="both", expand=True)
+
+        print(question_label_text.get())
+        for ans_id in questions[question_label_text.get()]['answers']:
+            radio = tk.Radiobutton(self, text=answers[ans_id], value=ans_id, variable=answer_var, wraplength=375)
+            radio.pack(side="top", ipady=5)
+
+
+class ResultPage(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         label_title = tk.Label(self, text="C.R.E.S.", font=("Courier", 21))
@@ -50,57 +102,23 @@ class FormPage(Page):
         label_description = tk.Label(self, text="Car Recommendation Expert System", font=("Courier", 12))
         label_description.pack(side="top", fill="x", expand=False, pady=[0, 50])
 
-        question_label = tk.Label(self, textvariable=question_label_text)
-        question_label.pack(side="top", fill="both", expand=True)
+        frame = ScrollableFrame(self)
 
-        self.radios = []
-        for (text, value) in values[question_label_text.get()].items():
-            radio = tk.Radiobutton(self, text=text, value=value)
-            radio.pack(side="top", ipady=5)
-            self.radios.append(radio)
+        load = Image.open("parrot.jpg")
+        render = ImageTk.PhotoImage(load)
+        img = tk.Label(self, image=render)
+        img.image = render
+        img.place(x=0, y=0)
 
+        if results.__len__() == 0:
+            r_label = tk.Label(frame.scrollable_frame, text='Get a bike')
+            r_label.pack(side="top", ipady=5)
+        else:
+            for res in results:
+                r_label_name = tk.Label(frame.scrollable_frame, text=res['car']['name'])
+                r_label_name.pack(side="top", ipady=5)
 
-class ResultPage(Page):
-    def __init__(self, *args, **kwargs):
-        Page.__init__(self, *args, **kwargs)
-        label = tk.Label(self, text="This is page 3")
-        label.pack(side="top", fill="both", expand=True)
+                r_label_description = tk.Label(frame.scrollable_frame, text=res['car']['description'], wraplength=375)
+                r_label_description.pack(side="top", ipady=5)
 
-
-class MainView(tk.Frame):
-    def __init__(self, *args, **kwargs):
-        tk.Frame.__init__(self, *args, **kwargs)
-        p1 = WelcomePage(self)
-        p2 = FormPage(self)
-        p3 = ResultPage(self)
-
-        current_page = "p1"
-        button_text = tk.StringVar()
-
-        button_text.set("Begin")
-
-        button_frame = tk.Frame(self)
-        container = tk.Frame(self)
-        button_frame.pack(side="bottom", fill="x", expand=False, pady=15, padx=15)
-        container.pack(side="top", fill="both", expand=True)
-
-        p1.place(in_=container, x=0, y=0, relwidth=1, relheight=1)
-        p2.place(in_=container, x=0, y=0, relwidth=1, relheight=1)
-        p3.place(in_=container, x=0, y=0, relwidth=1, relheight=1)
-
-        def button_click():
-            nonlocal current_page
-            if current_page == "p1":
-                p2.lift()
-                button_text.set("Next")
-                current_page = "p2"
-                print(p2.radios)
-                for r in p2.radios:
-                    r.pack_forget()
-                
-
-        button = tk.Button(button_frame, textvariable=button_text, command=button_click)
-
-        button.pack(side="bottom")
-
-        p1.show()
+        frame.pack(fill="both", expand=True)

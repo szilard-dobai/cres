@@ -26,6 +26,868 @@
             "name":"AUDI A7",
             "description":"A fastback roofline gives the A7 both flair and hatchback practicality, while the luxury cabin pampers occupants. Standard all-wheel drive helps get all of the supercharged 3.0-liter V-6\\'s 333 hp to the ground through an eight-speed automatic. A taut suspension and confident brakes round out the A7’s performance credentials. Smartphone integration with Apple CarPlay and Android Auto is standard. Night vision, automated emergency braking, and adaptive cruise control are optional."
          }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"being_active_doing_things",
+            "korean_take":"no"
+         },
+         "car":{
+            "id":"honda_fit",
+            "name":"HONDA FIT",
+            "description":"A flexible interior, an efficient powertrain, and agreeable pricing make the Fit an easy recommendation. Its firm ride makes it fun to drive, while light steering makes it great for in-town driving—icing on the cake. The handy multiconfigurable interior offers more cargo room than the Fit\\'s size implies, too. The 130-hp 1.5-liter engine drives the front wheels through a six-speed manual or a CVT. Uplevel EX and EX-L models get a 7.0-inch touchscreen infotainment system; navigation is optional."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "know_broke":"fine",
+            "care_about":"my_growing_family"
+         },
+         "car":{
+            "id":"ford_focus",
+            "name":"FORD FOCUS",
+            "description":"A European-developed chassis gives even the base Focus a rare blend of agility and accuracy, making it enjoyable to drive even when compared with newer competitors. A 160-hp 2.0-liter four-cylinder is standard, while an optional 123-hp 1.0-liter turbo three-cylinder with auto stop/start is aimed at extra efficiency. Both are available with either an automatic or manual transmission. We recorded 25 mpg overall with both a 2.0-liter five-speed manual model and a 1.0-liter with an automatic."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_seem_rich",
+            "hope_you_like_dept":"but_i_dont"
+         },
+         "car":{
+            "id":"mazda_6",
+            "name":"MAZDA6",
+            "description":"If you think all family sedans are created equal, you\re in for a surprise with the nimble and curvaceous Mazda 6. It lives up to its racy looks, too—a precision-tuned suspension and driver-focused cabin make it the ideal choice for those who enjoy driving. A 184-hp 2.5-liter four teams with either a six-speed manual or a six-speed automatic. The seven-inch infotainment system is easy to use, and optional automated emergency braking and adaptive cruise control provide an extra level of safety."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_seem_rich",
+            "like_noise":"bring_noise",
+            "hope_you_like_dept":"but_i_dont"
+         },
+         "car":{
+            "id":"hyundai_genesis",
+            "name":"HYUNDAI GENESIS",
+            "description":"The Hyundai Genesis  is a full-size four-door, five passenger, rear-wheel-drive. "
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "run":"electricity",
+            "want_think":"i_seem_rich",
+            "hope_you_like_dept":"but_i_dont"
+         },
+         "car":{
+            "id":"kia_optima",
+            "name":"KIA OPTIMA",
+            "description":"The 2016 Kia Optima truly challenges midsize sedan conventions with a fusion of bold style, grin-inducing performance, and advanced technology."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "want_think":"no_i_really_m_rich",
+            "want_wind_in_hair":"its_okey",
+            "brand_nob":"god_yes"
+         },
+         "car":{
+            "id":"jaguar_xj",
+            "name":"JAGUAR XJ",
+            "description":"As the only Brit in a segment ruled by Germans, the Jaguar XJ has a lot on its shoulders—a weight it bears remarkably well. The interior is appropriately swanky for the XJ\\s place at the top of the Jaguar lineup, with quality materials and luxe styling. A 3.0-liter supercharged V-6 with 340 hp comes standard; a 470-hp V-8 is available. We still have some niggles with build quality and the infotainment system, but even so, the XJ is a lovely ride. The racy XJ-R is reviewed separately."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"no_i_really_m_rich",
+            "cylinder":"eight",
+            "brand_nob":"god_yes"
+         },
+         "car":{
+            "id":"audi_a8",
+            "name":"AUDI A8",
+            "description":"The Audi A8 is a four-door, full size, luxury sedan manufactured and marketed by the German automaker Audi since 1994."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_wind_in_hair":"its_okey",
+            "brand_nob":"who cares"
+         },
+         "car":{
+            "id":"lincoln_mks",
+            "name":"LINCOLN MKZ",
+            "description":"The Lincoln MKZ, is a four-door, five passenger mid size luxury sedan manufactured by Ford."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"no_i_really_m_rich",
+            "cylinder":"eight",
+            "brand_nob":"who cares"
+         },
+         "car":{
+            "id":"infiniti_m37",
+            "name":"INFINITI M37",
+            "description":"There are four flavors of the new M. The base $47,115 M37 with its 330-hp, 3.7-liter V-6 and the all-wheel-drive $49,265 M37x are two of them. The M56 with a direct-injection 420-hp, 5.6-liter V-8 starts at $58,415, and the all-wheel-drive M56x begins at $60,915. Although the prices place it just above the similarly positioned Lexus GS, the newer Infiniti offers more horsepower and a seven-speed automatic to the Lexus\\s six-speed."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"no_i_really_m_rich",
+            "want_wind_in_hair":"oh_yeah"
+         },
+         "car":{
+            "id":"bentley",
+            "name":"BENTLEY CONTINENTAL GT CONVERTIBLE",
+            "description":"The new Bentley Continental GT Convertible offers the same enhancements as its coupe stable-mate, coupled with the sheer exhilaration of open-top driving."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird"
+         },
+         "car":{
+            "id":"vw_beetle",
+            "name":"VW BEETLE",
+            "description":"The Volkswagen Beetle is a two-door, four passenger, rear-engine economy car manufactured  and marketed by German automaker Volkswagen. "
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird",
+            "hope_you_like_dept":"but_i_dont"
+         },
+         "car":{
+            "id":"fiat",
+            "name":"FIAT 500",
+            "description":"The Fiat 500 is a rear-engine two-door, four passenger city car manufactured and marketed by Fiat Automobiles."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird",
+            "korean_take":"no"
+         },
+         "car":{
+            "id":"scion_iq",
+            "name":"SCION IQ",
+            "description":"The 2016 Scion iQ is a two-door, four-seat hatchback. It is available in one trim and comes with a 1.3-liter four-cylinder engine, a continuously variable transmission (CVT) and front-wheel drive."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird",
+            "korean_take":"no",
+            "fun_for_you":"slow_fast"
+         },
+         "car":{
+            "id":"nissan_cube",
+            "name":"NISSAN CUBE",
+            "description":"The Nissan Cube is a compact four-door hatchback wagon. A 1.8-liter four-cylinder engine sends 122 horsepower to the front wheels via a six-speed manual transmission or a CVT. Fuel economy tops out around 30 mpg, a poor performance by segment standards."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird",
+            "korean_take":"no",
+            "fun_for_you":"slow_fast"
+         },
+         "car":{
+            "id":"kia_soul",
+            "name":"KIA SOUL",
+            "description":"The base Soul has a 1.6-liter four-cylinder engine, while Plus and Exclaim trims have a more powerful 2.0-liter four-cylinder engine. A six-speed manual transmission is standard and a six-speed automatic is optional."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird",
+            "korean_take":"no"
+         },
+         "car":{
+            "id":"mit",
+            "name":"MITSUBISHI LANCER",
+            "description":"The Mitsubishi Lancer is the brand\\s second smallest offering, a compact four-door sedan that sits above the diminutive Mirage in the company\\s limited lineup."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_weird"
+         },
+         "car":{
+            "id":"hyundai",
+            "name":"HYUNDAI VELOSTER",
+            "description":"For the 2016 Hyundai Veloster, a limited-edition turbocharged Rally Edition debuts with Rays wheels, matte blue paint and sportier suspension tuning than the Veloster R-Spec. The Veloster Turbo gets a new seven-speed automated manual transmission and new seats. An upgraded navigation system with HD radio, second-generation Blue Link and Apple Siri Eyes Free integration is available for base and Turbo models."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"what_people_think_of_me",
+            "want_think":"i_m_a_gangster_or_something"
+         },
+         "car":{
+            "id":"chrysler",
+            "name":"CHRYSLER 300",
+            "description":"Provides an exceptionally supple and quiet ride over bumps and rough pavement; available V8 engine is well suited to the car\\s personality; upscale look and feel of the cabin; touchscreen technology interface is easy to use; choice of available premium sound systems; available all-wheel drive."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"all_the_money_i_dont_have",
+            "know_broke":"no"
+         },
+         "car":{
+            "id":"honda",
+            "name":"HONDA CIVIC",
+            "description":"The front-wheel-drive 2016 Honda Civic comes with a four-cylinder engine, but the exact type varies depending on the trim level you pick."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"all_the_money_i_dont_have",
+            "know_broke":"fine"
+         },
+         "car":{
+            "id":"ford fiesta",
+            "name":"FORD FIESTA",
+            "description":"Though the Fiesta might be small, it is still mighty fierce. An engaging five-speed manual comes standard; the optional six-speed dual-clutch sacrifices little in terms of driving fun. Available as a four-door sedan or five-door hatchback, its tight rear seat and scant standard equipment shouldnt be a deal-breaker. Judiciously equipped with options like Sync 3 infotainment and the 123-hp turbo three-cylinder,an upgrade from the base 120-hp four-cylinder.this little guy is a pleasure to drive."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"all_the_money_i_dont_have",
+            "know_broke":"fine",
+            "cylinder":"four"
+         },
+         "car":{
+            "id":"chevy_spark",
+            "name":"CHEVY SPARK",
+            "description":"The Sparks persona is less shocking than its name, but those seeking basic urban transportation will be happy. The 98-hp four-cylinder pairs with a standard five-speed manual or an optional CVT. Being small doesn\t mean unsafe; with room for four on the inside, there are 10 airbags while lane-departure alert and forward-collision warning are available. Onboard Wi-Fi with 4G LTE are standard, as are Apple CarPlay and Android Auto."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"all_the_money_i_dont_have",
+            "know_broke":"no",
+            "p_excites":"practical"
+         },
+         "car":{
+            "id":"nissan_note",
+            "name":"NISSAN VERSA NOTE",
+            "description":"The 2016 Nissan Versa Note is a five-passenger, four-door hatchback offered in five trim levels: S, S Plus, SV, SR and SL. A four-door sedan version of the Versa also is available."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"the_environment",
+            "run":"electricity",
+            "want_think":"i_m_weird"
+         },
+         "car":{
+            "id":"chevy_volt",
+            "name":"CHEVY VOLT",
+            "description":"The weight-loss program and high-tech wizardry under the hood pay off with an impressive 17 mpg overall fuel economy from the 2.7-liter turbo V6—edging out the 5.3-liter V8 Chevrolet Silverado by one hay-hauling mpg. (The Ram 1500 diesel still leads the class with 20 mpg overall.) The F-150\\s 2.7- and beefier 3.5-liter turbo-V6 engines provide plenty of punch even at low revs, with quick acceleration and effortless towing ability."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"the_environment",
+            "run":"hybrid",
+            "with_people":"four_plus"
+         },
+         "car":{
+            "id":"ford_fusion_hybrid",
+            "name":"FORD FUSION HYBRID",
+            "description":"Impressive fuel economy; advanced technology and safety features; quiet cabin; eye-catching styling."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"the_environment",
+            "run":"diesel"
+         },
+         "car":{
+            "id":"vwjetta",
+            "name":"VW JETTA SPORTWAGON TDI",
+            "description":"Mix the goodness of the Golf with the utility of a wagon, and you get the Golf SportWagen—as well as a 10Best award. The standard engine is a 170-hp 1.8-liter turbocharged four-cylinder with front-wheel drive and a five-speed manual transmission; a six-speed automatic and all-wheel drive are optional. The ride is solid and controlled, interior quality is very good, and the front seats are highly supportive. A standard touchscreen infotainment system features Apple CarPlay and Android Auto."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"the_environment",
+            "run":"hybrid"
+         },
+         "car":{
+            "id":"honda_fcx",
+            "name":"HONDA FCX",
+            "description":"The limited-edition FCX Clarity is an electric car that makes its own electricity using a hydrogen-fed fuel cell. Powering the Clarity is a 134-hp electric motor that provides adequate acceleration. Honda hand-picks each customer. To get chosen you must live near a hydrogen refueling station"
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"the_environment",
+            "run":"electricity"
+         },
+         "car":{
+            "id":"nissanleaf",
+            "name":"NISSAN LEAF",
+            "description":"Nissan Leaf Review. The Nissan Leaf is easy, fun and comfortable to drive. Just make sure you can live with the limited range. The Nissan Leaf is an all-electric family hatchback that\\s roughly the same size as a Vauxhall Astra."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"my_growing_family",
+            "cant_parent":"cool_car"
+         },
+         "car":{
+            "id":"bmw",
+            "name":"BMW X1",
+            "description":"The X1 is available with a turbocharged 2.0-litre petrol engine and a range of 2.0-litre diesels, plus buyers can choose between front and four-wheel drive."
+         }
+      },
+      {
+         "rules":{
+            "why":"transport",
+            "care_about":"my_growing_family",
+            "cant_parent":"walk_cat_in_park"
+         },
+         "car":{
+            "id":"ford_c_max",
+            "name":"FORD C-MAX",
+            "description":"While comfortable and fun to drive, the C-Maxs high EPA-estimated fuel-economy numbers are basically fantasy. A 2.0-liter four and electric motors in the CVT combine for 188 hp; in our testing, the C-Max and the plug-in C-Max Energi got only 32 and 33 mpg, respectively. If a hybrid can\t top a gas-powered opponents fuel economy, then why bother? The Energi\\s EV-only range of 19 miles is inadequate, too. That the C-Max drives much like a conventional hatchback only furthers that point."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"being_awesome",
+            "cylinder":"four"
+         },
+         "car":{
+            "id":"morgan",
+            "name":"MORGAN 3-WHEELER",
+            "description":"Just as Larsen intended with the Ace, the 3 Wheeler\\s layout is much like the original Twenties Morgans, with a tubular steel spaceframe using independent front suspension, with a large-capacity V-twin engine across the body. Morgan selected an S&S unit after Harley-Davidson mysteriously pulled out. The S&S X-Wedge is a two-valve, fuel-injected, dry-sump engine, with 56.25 degrees between the cylinders for cooling purposes. It displaces 1,982cc and punches out almost 80bhp and 100lb ft of torque, with peak revs at 5,200rpm."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"six",
+            "engine":"behind me"
+         },
+         "car":{
+            "id":"porsche",
+            "name":"PORSCHE 911 ",
+            "description":"The 911 debuted in the 1960s and remains at the pinnacle of automobiledom while staying true to its roots as the quintessential sports car. An eager rear-mounted 370-hp, 3.0-liter twin-turbo flat-six powers the rear wheels; S models make 420 hp. A seven-speed manual transmission is standard; all-wheel drive and a seven-speed dual-clutch automatic are options. In coupe, convertible, and Targa form, the 911 is as luxurious as it is sure-footed, making even novices feel like racing legends."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"six",
+            "engine":"front"
+         },
+         "car":{
+            "id":"nissan_gt_r",
+            "name":"NISSAN GT-R ",
+            "description":"Doesn\t matter what you call it—GT-R or, more fittingly, Godzilla—Nissan\\s range topper is a supercar-stomping, high-tech dynamo. Its 3.8-liter twin-turbo V-6 makes a mighty 565 hp while a six-speed dual-clutch automatic and all-wheel drive team up to put all that power to the pavement. The GT-R\\s quick steering, rigid structure and adjustable suspension can make even amateurs feel positively heroic from behind the wheel. Want more? Check out the track-ready NISMO-tuned variant with 600 hp."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"six",
+            "engine":"front",
+            "with_people":"four_plus"
+         },
+         "car":{
+            "id":"bmw_335",
+            "name":"BMW 335i",
+            "description":"BMWs superb 3.0-liter turbo straight-six churns up a manly helping of torque that peaks just north of idle, and max horsepower comes on at 5800 rpm. The six emits seductively determined noises when pressed, particularly in Sport mode, and the only way to induce any lagging or lugging is to engage a high gear at low rpm."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"four",
+            "engine":"front",
+            "with_people":"four_plus"
+         },
+         "car":{
+            "id":"cadillac_ats",
+            "name":"CADILLAC ATS",
+            "description":"A turbocharged 2.0-liter four-cylinder engine and rear-wheel drive are standard. A 3.6-liter V6 and all-wheel drive are available. The performance-oriented ATS-V features a twin-turbocharged V6. Coupe models come with your choice of a six-speed manual transmission or an eight-speed automatic."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"zero_one",
+            "loaded":"yes",
+            "classy_shouty":"shouty"
+         },
+         "car":{
+            "id":"ferrari_458",
+            "name":"FERRARI 458",
+            "description":"As instruments of pure speed, few cars can touch the 458 Italia and its convertible counterpart, the 458 Spider. Powered by a 562-hp V-8 mated to a seven-speed dual-clutch transmission and riding on an F1-inspired suspension, the mid-engined 458 is as pure a sports car as anything on the road. It looks the part, too, with X-Acto knife styling and an intense, if overwrought, interior. Need to turn up the exclusivity? You\\ll want the 458 Speciale or the 458 Speciale A, with 597 hp."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"zero_one",
+            "loaded":"yes",
+            "classy_shouty":"shouty"
+         },
+         "car":{
+            "id":"mclaren_mp4",
+            "name":"McLAREN MP4-12C",
+            "description":"With a 4000-rpm spread between torque and horsepower peaks and 17.4 psi of boost on tap, the MP4\\s 3.8-liter engine feels more like a strapping V-10 than a mini V-8."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"zero_one",
+            "loaded":"yes",
+            "classy_shouty":"classy"
+         },
+         "car":{
+            "id":"jaguar_f",
+            "name":"JAGUAR F-TYPE",
+            "description":"From its seductively long hood to its steeply raked windshield and wide rear haunches, the F-type is a stunner. Offered as both a coupe and a convertible, it gets a snarling 3.0-liter supercharged V-6 pumping out 340 hp to the rear wheels through a six-speed manual or eight-speed automatic. Racier S models get a boost to 380 hp and offer all-wheel drive with the automatic. Suspension tuning is firm, and the F-type is always eager to play, but the cost is an often harsh ride over bumpy roads."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"zero_one",
+            "loaded":"mean_drunk"
+         },
+         "car":{
+            "id":"chevrolet",
+            "name":"CHEVROLET CORVETTE STINGRAY",
+            "description":"The mighty Corvette truly competes with the worlds greatest sports cars, no excuses required. With a 6.2-liter V-8 making 455 hp and 460 lb-ft of torque (an optional sport exhaust is good for 460 hp and 465 lb-ft), an eight-speed automatic is now available in addition to the standard seven-speed manual. The Corvette sheds its unrefined reputation and has an interior befitting its stature. The Grand Sport is a 10Best winner, combining the LT1 V-8 with the Z06\\s bodywork and chassis hardware."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"ten",
+            "with_people":"four_plus",
+            "german_engineering":"yessur"
+         },
+         "car":{
+            "id":"bmw_m5",
+            "name":"BMW M5",
+            "description":"The 2016 BMW M5 is extremely customizable, putting multiple drive, suspension, steering, and transmission modes at the driver\\s fingertips. The 4.4-liter twin-scroll, twin-turbocharged engine boasts 575 horsepower when equipped with the Competition package."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"four_plus",
+            "german_engineering":"yessur",
+            "brand_snob":"yes"
+         },
+         "car":{
+            "id":"mercedes_e63",
+            "name":"MERCEDES E63 AMG",
+            "description":"Absurd power and blistering acceleration are not the E63\\s only party tricks; thanks to computer magic and an excellent suspension, its also quite agile. But oh, that mighty 577-hp 5.5-liter twin-turbo V-8 is a sweetheart of an engine. A seven-speed automatic and all-wheel drive are standard, as are 14-way power-operated and heated/cooled seats. If the sedan isnt enough, check out the E63 wagon; it\\ll haul your groceries in record time. Note: These models replace the Mercedes-Benz versions."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"four_plus",
+            "german_engineering":"yessur",
+            "hope_you_like_debt":"love_it"
+         },
+         "car":{
+            "id":"porsche_panamera",
+            "name":"PORSCHE PANAMERA",
+            "description":"No matter what you think about the Panamera\\s controversial styling, its dynamic abilities are indisputable. Backed by a 440-hp twin-turbo V-6 with an eight-speed dual-clutch automatic and all-wheel drive, we estimate a 0-60 time of 4 seconds. A central tachometer is flanked by two reconfigurable 7-inch screens. A 12.3-inch touchscreen in the center of the dash controls the infotainment system, but in our opinion, the touch points are too small. Look for this new Panamera in early 2017."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"four_plus"
+         },
+         "car":{
+            "id":"cadillac_cts",
+            "name":"CADILLAC CTS-V",
+            "description":"The Good With 640 horsepower on tap, the 2016 Cadillac CTS-V isn\t just the most powerful Cadillac ever, it\\s also the most powerful car in its class. The V also brings an exceptional level of nimbleness to the table with standard high-performance brakes, magnetic control suspension and a tight chassis."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"two_three",
+            "german_engineering":"i_like_pasta"
+         },
+         "car":{
+            "id":"maserati",
+            "name":"MASERATI GHIBLI",
+            "description":"Say \"gib-lee.\" It\\s named for an African desert wind—and the perfect name for a hot Italian sedan. With its deliciously curved lines, the Ghibli\\s looks are backed up by whats under the hood. The base setup is a 345-hp, twin-turbo 3.0-liter V-6 and rear-wheel drive; the S performance version has 404 hp and optional all-wheel drive. Both engines have an eight-speed automatic. The interior needs nicer materials, but this desert wind is a breath of fresh air in a world dominated by German sedans."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"two_three"
+         },
+         "car":{
+            "id":"ford_mustang",
+            "name":"FORD MUSTANG",
+            "description":"The galloping pony nestled in the grille serves as a reminder that the Mustang is most at home on the open road. Both the coupe and convertible come with your choice of a 300-hp 3.7-liter V-6, a 310-hp 2.3-liter turbo four-cylinder, or a 435-hp 5.0-liter V-8; choose from a six-speed manual or a six-speed automatic. The rear-wheel-drive chassis is eager to attack corners while enabling a smooth ride when cruising. The manua\\s stiff clutch makes it a bit of a chore to drive in heavy traffic."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"two_three",
+            "brand_snop":"yes"
+         },
+         "car":{
+            "id":"chevy_camaro",
+            "name":"CHEVY CAMARO",
+            "description":"Gutsy engines, aggressive sheetmetal, and rear-wheel drive are essential for any muscle car, but the Camaro stirs in excellent handling and great steering, too. Available as a coupe or convertible, the base engine is a 275-hp 2.0-liter turbo four; a 335-hp 3.6-liter V-6 and a 455-hp 6.2-liter V-8 are optional. All offer either a six-speed manual or optional eight-speed automatic. The interior, though, is tight and offers limited visibility. The V-6 and V-8 Camaros are 10Best winners for 2017."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"eight",
+            "with_people":"two_three",
+            "want_stick":"yep"
+         },
+         "car":{
+            "id":"dodge_challenger",
+            "name":"DODGE CHALLENGER",
+            "description":"The 2016 Dodge Challenger SXT models are powered by a 3.6-liter V6 that produces 305 hp and 268 pound-feet of torque. Like every Challenger, it is rear-wheel drive. An eight-speed automatic is the only transmission available. ... EPA fuel economy is 18 mpg (15/25) with the automatic and 17 (14/23) with the manual."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"twelve",
+            "want_stick":"yep"
+         },
+         "car":{
+            "id":"aston",
+            "name":"ASTON MARTIN VANTAGE",
+            "description":"The best way to live out your super-spy fantasy is behind the wheel of an Aston Martin, and the Vantage is the least expensive way to do it. Offered as a coupe or convertible, performance from the V8 Vantage\\s engine is nothing short of brutish, at 420 or 430 hp; six-speed manual and seven-speed automatic transmissions are offered. For speed demons, the V12 Vantage has a turbine-smooth 565-hp 5.9-liter V-12 with either a seven-speed manual or a seven-speed automatic handling shifting duties."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"ten"
+         },
+         "car":{
+            "id":"dodge_viper",
+            "name":"SRT VIPER",
+            "description":"The Viper is both all-American and a true exotic, with lots of curves and bulges in all the right places to let you know it means business. The long nose, bodacious body, and predatory stare give the Viper a menacing look, while its 645-hp, 8.4-liter V-10 can catapult it to 60 mph in about three seconds. For the ultimate track monster, check out the Viper ACR. With all kinds of aero aids, special tires by Kumho and carbon-ceramic brakes, Dodge says it is the fastest Viper on a racetrack."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"ten",
+            "run":"petrol"
+         },
+         "car":{
+            "id":"audi_r8",
+            "name":"AUDI R8",
+            "description":"The Audi R8 is a supercar from a dying breed. ... It\\s nimble and agile, while the V10 packs a punch that\\s accompanied by a thrilling V10 soundtrack, especially if you go for the R8 V10 Plus. Audi R8 V10 Plus. When the original Audi R8 launched in 2006, it caused a sensation."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"going_fast",
+            "cylinder":"ten",
+            "engine":"behind_me"
+         },
+         "car":{
+            "id":"lamborhini_gallardo",
+            "name":"LAMBORGHINI GALLARDO",
+            "description":"The Lamborghini Gallardo LP560-4 looks every inch the supercar, and it has the perfomance to back it up. Peer beneath the car\\s glass engine cover and you\\ll spot the mighty 552bhp 5.2-litre V10 powerplant. Mated to a permanent four-wheel drive system it serves-up scintillating performance, with the Coupe model able to scorch from 0-60mph in just 3.7 seconds, and on to a top speed of 202mph. Such incredible performance needs a suitably spine-tingling sound track – and the Lambo doesn\t disappoint, with a guttural low-rev bark that turns into an addictive howl as speeds rises."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"nah",
+            "unpaved_road":"notso_hotso"
+         },
+         "car":{
+            "id":"scion_frs",
+            "name":"SCION FR-S/SUBARU BRZ",
+            "description":"Offering sports-car agility on a budget, the FR-S features excellent driving dynamics for a manageable price. Only one engine is offered-a 200-hp 2.0-liter flat-four-with a six-speed manual or six-speed automatic. The manual shifts with a solid, no-nonsense feel, while the paddle-shift automatic is quick and responsive. The cabin is cramped and plasticky, but the FR-S is very agile, which endears it to enthusiasts. Scion\\s demise moves the FR-S to the Toyota showroom for 2017 under the name 86."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "want_wind_in_hair":"oh_yeah",
+            "unpaved_road":"notso_hotso"
+         },
+         "car":{
+            "id":"mazda_miata",
+            "name":"MAZDA MIATA",
+            "description":"The 2016 Mazda MX-5 Miata is one of the best drivers cars. Fun per dollar, nothing comes close. The Miata is a two door roadster with 155 horsepower and 148 lb-ft of torque, delivered through a 6 speed manual transmission to the rear wheels via an optional limited slip differential."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"none_of_your_business",
+            "want_wind_in_hair":"oh_yeah"
+         },
+         "car":{
+            "id":"caterham",
+            "name":"CATERHAM CLASSIC",
+            "description":"Equipped with modern engines and brakes, plus a kerbweight of (usually) around 550kg, the Seven can scare even the most outrageously powerful supercars - helped in part by modest dimensions and steering that connects direct to your brain. The core range is familiar but there are two new bookend additions; a sweet Suzuki 660cc turbo-engined Seven 160 (80hp but still 0-60mph in 6.5 seconds), and the 620 R, which pumps out 310bhp from a 2.0-litre Duartec in a 500kg car. That\\s 620bhp per tonne, fact fans, and 0-60mph in 2.8 seconds. It\\s quick."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"none_of_your_business",
+            "cylinder":"six"
+         },
+         "car":{
+            "id":"porsche_cayman",
+            "name":"PORSCHE CAYMAN",
+            "description":"Despite more powerful turbo fours (there is a base 300-hp 2.0-liter and a 350-hp 2.5-liter in the S) with increased torque, the legendary Porsche flat-six rasp of yore is gone—and we miss it. The car remains perfectly poised as its predecessors. A six-speed manual is standard; a seven-speed automatic is optional. An improved infotainment system with a 7.0-inch touchscreen is standard, too."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"none_of_your_business"
+         },
+         "car":{
+            "id":"lotus_elise",
+            "name":"LOTUS ELISE",
+            "description":"Lotus has made some subtle tweaks to the Elise exterior in recent years. The front clam now has a much less fussy look, with a clean and simple intake offset against some great-looking LED daytime running lights.While the car\\s looks from the front are still eye-catching.The Elise S, with its supercharged 1.8 litre engine is certainly quick; 0-60 takes just 4.2 seconds"
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"nah",
+            "unpaved_road":"sure_do"
+         },
+         "car":{
+            "id":"audi_allroad",
+            "name":"AUDI ALLROAD QUATTRO",
+            "description":"While the Allroad may not be a hard-core off-roader, as competent all-weather transportation, it hits the mark. Plus, we really like wagons, and with a maximum of 58.5 cu ft of cargo space, the Allroad meets the needs of most buyers. A 252-hp turbo 2.0-liter four teams with a seven-speed dual-clutch automatic; all-wheel drive is standard. Its a fine highway cruiser and easily tackles country roads thanks to its Offroad mode. And it\\s far more fun to drive than a comparably priced crossover."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"nah",
+            "cylinder":"four",
+            "unpaved_road":"sure_do"
+         },
+         "car":{
+            "id":"subaru_wrx",
+            "name":"SUBARU WRX",
+            "description":"All hopped up with a hood scoop, flared fenders, and a hot-rod engine under the hood, the WRX is an Impreza on steroids. Available only as a sedan, a 268-hp turbo 2.0-liter four and a six-speed manual are standard, as is all-wheel drive. A CVT is optional, but of course the manual is more fun to drive despite its wide ratios. With crisp steering and a quick turn-in, the WRX carves up corners like the rally-inspired beast it is, but the ride is unforgiving over all but the smoothest roads."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"carving",
+            "cash_situation":"comfort",
+            "hair_piece":"nhi"
+         },
+         "car":{
+            "id":"porsche_boxster",
+            "name":"PORSCHE BOXSTER",
+            "description":"Continuing to define sports-car excellence, the Boxster is once again a 10Best winner. With turbo four-cylinders (the base is a 300-hp 2.0-liter; the S gets a 350-hp 2.5-liter) that are substantially more powerful and torque-rich—making the Boxster faster—we can\t help but miss the guttural yowl from Porsche\\s iconic flat-six. Despite these changes, the mid-engine roadster certainly hasn\t lost its dynamic perfection, which is nearly without equal. A touchscreen infotainment system is optional."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "like_noise":"bring_noise"
+         },
+         "car":{
+            "id":"fiat",
+            "name":"FIAT 500 ABARTH",
+            "description":"The tiny 500 goes from pipsqueak to bad-ass as the hot-rod Abarth, the heart of which is a raucous 160-hp turbocharged four-cylinder. A five-speed manual is standard, while a six-speed automatic is optional. The exhaust note is addictive, and thanks to a slammed suspension, the Abarth\\s handling is as feisty as its styling. There is a coupe or sliding-canvas soft top, though in open-air form, it can get a little pricey. Still, the Abarth is a special car with a ton of charisma."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "like_noise":"bring_noise",
+            "p_excites":"punchy"
+         },
+         "car":{
+            "id":"mini_cooper",
+            "name":"MINI COOPER",
+            "description":"Quirky styling and nimble handling help the Cooper S to inject a dose of excitement into your daily commute. A 189-hp 2.0-liter turbo four-cylinder with a six-speed manual or six-speed automatic provides enough scoot to live up to the car\\s sporting intentions. A five-door model is now offered so that the Cooper S can (almost) make a case for itself as a family car; a JCW version of the three-door boasts a brawnier 228-hp 2.0-liter four, a tuned suspension, and a host of racy styling tweaks."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "like_noise":"keep_down",
+            "p_excites":"punchy"
+         },
+         "car":{
+            "id":"ford_fiesta_st",
+            "name":"FORD FIESTA ST",
+            "description":"When the need arises, the Ford Fiesta ST can still be a convenient town car or a stress-free long-hauler. It starts with the engine, which is the 182bhp 1.6 turbo that\\s been available in bigger Fords for a while."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "like_noise":"keep_down",
+            "p_excites":"precise"
+         },
+         "car":{
+            "id":"vw_golf",
+            "name":"VW GOLF GTI",
+            "description":"The Golf GTI is the progenitor of the hot-hatch genre, and age has not dulled its abilities—and so we name it a 10Best winner. The base engine is a 210-hp 2.0-liter turbo four with a six-speed manual. A six-speed automatic, an extra-cost option, is almost as much fun as the manual. Choose the Sport model for 10 more horses as well as upgrades to brakes and a torque-sensing limited-slip differential. GTI\\s classic plaid seats come standard, as do agile handling and hatchback practicality."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "like_noise":"keep_down",
+            "p_excites":"practical"
+         },
+         "car":{
+            "id":"mazdaspeed3",
+            "name":"MAZDASPEED3",
+            "description":"Why is this car grinning? Because it\\s got 263 rip-snortin\\ horses behind that big smile. Too bad theyre so unruly. Still, we like its menacing hot-hatch styling with new-for-13 black body trim, and its well-equipped interior, which at long last is available with a proper touch-screen navigation system."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "cylinder":"four",
+            "like_noise":"keep_down",
+            "p_excites":"practical"
+         },
+         "car":{
+            "id":"volvos60",
+            "name":"VOLVO S60",
+            "description":"Volvo blends sleek Swedish design with the latest in safety technology, proving you can be good-looking and smart. A 240-hp turbo four and an optional 302-hp turbo- and supercharged four offer front-wheel drive. All-wheel drive is offered with a 250-hp turbo five-cylinder or 325-hp turbo inline-six; the Polestar is a hot rod with a 362-hp inline-six. The Cross Country model has 7.9 inches of ground clearance; the Inscription model has a long wheelbase with an extra 3.4 inches of rear legroom."
+         }
+      },
+      {
+         "rules":{
+            "why":"fun",
+            "fun_for_you":"slow_fast",
+            "cylinder":"four",
+            "like_noise":"keep_down",
+            "p_excites":"punchy"
+         },
+         "car":{
+            "id":"ford_focus_st",
+            "name":"FORD FOCUS ST",
+            "description":"Nitpicking aside, the 2016 Ford Focus ST is a very appealing choice in the so-called \"hot-hatch\" category. ... The higher-performance Focus RS is reviewed separately. The 2016 Ford Focus ST is available solely in the hatchback body style with a manual transmission."
+         }
       }
    ]
 }
