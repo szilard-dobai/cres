@@ -135,4 +135,5 @@ main.pack(side="top", fill="both", expand=True)
 
 root.wm_title("Car Recommendation Expert System")
 root.wm_geometry("400x800")
+root.resizable(False, False)
 root.mainloop()
