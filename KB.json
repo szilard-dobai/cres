@@ -24,7 +24,7 @@
          "car":{
             "id":"audi_a7",
             "name":"AUDI A7",
-            "description":"A fastback roofline gives the A7 both flair and hatchback practicality, while the luxury cabin pampers occupants. Standard all-wheel drive helps get all of the supercharged 3.0-liter V-6's 333 hp to the ground through an eight-speed automatic. A taut suspension and confident brakes round out the A7’s performance credentials. Smartphone integration with Apple CarPlay and Android Auto is standard. Night vision, automated emergency braking, and adaptive cruise control are optional."
+            "description":"A fastback roofline gives the A7 both flair and hatchback practicality, while the luxury cabin pampers occupants. Standard all-wheel drive helps get all of the supercharged 3.0-liter V-6's 333 hp to the ground through an eight-speed automatic. A taut suspension and confident brakes round out the A7's performance credentials. Smartphone integration with Apple CarPlay and Android Auto is standard. Night vision, automated emergency braking, and adaptive cruise control are optional."
          }
       },
       {
@@ -78,7 +78,7 @@
          "car":{
             "id":"hyundai_genesis",
             "name":"HYUNDAI GENESIS",
-            "description":"The Hyundai Genesis  is a full-size four-door, five passenger, rear-wheel-drive. "
+            "description":"The Hyundai Genesis is a full-size four-door, five passenger, rear-wheel-drive absolute machine. "
          }
       },
       {
@@ -331,7 +331,7 @@
          "car":{
             "id":"chevy_volt",
             "name":"CHEVY VOLT",
-            "description":"Based on GM’s Delta platform, which also underpins Chevrolet’s Cruze hatchback and the Vauxhall Astra, the Volt is a four-seat hatch powered by lithium ion batteries that can be recharged by plugging into the mains, or on the go by its on-board 1.4-litre petrol engine."
+            "description":"Based on GM's Delta platform, which also underpins Chevrolet's Cruze hatchback and the Vauxhall Astra, the Volt is a four-seat hatch powered by lithium ion batteries that can be recharged by plugging into the mains, or on the go by its on-board 1.4-litre petrol engine."
          }
       },
       {

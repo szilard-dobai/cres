@@ -142,7 +142,6 @@ class ResultPage(Page):
                                  wraplength=375)
             r_label_3.pack(side="top", ipady=5)
 
-            # img = Image.open("./images/kia_soul.jpeg")
             img = Image.open("./images/bus.jpeg")
             wpercent = (375 / float(img.size[0]))
             hsize = int((float(img.size[1]) * float(wpercent)))
@@ -153,7 +152,6 @@ class ResultPage(Page):
             image.pack()
         else:
             for res in results:
-                # img = Image.open("./images/kia_soul.jpeg")
                 img = Image.open("./images/" + res['car']['id'] + ".jpeg")
                 wpercent = (375 / float(img.size[0]))
                 hsize = int((float(img.size[1]) * float(wpercent)))
