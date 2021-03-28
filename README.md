@@ -56,3 +56,9 @@ The way the app works is also explained graphically with the help of the flowcha
 ![pill reminder flowchart (1)](https://user-images.githubusercontent.com/33568824/112726523-8eaa8080-8f26-11eb-9c36-c8225bd2e3ae.png)
 
 Basically, the application tries to activate the rules of each car progressively. If the user's response does not match the rule that the application is trying to activate, it completely abandon that car as a potential candidate. Also, by randomly choosing the next rule it is trying to activate, the “form” that the user fills out will not always be identical from one app run to another.
+
+
+## Thanks to
+
+Most of the rules were borrowed from [skd060's expert system](https://github.com/skd060/Car-Recommendation-Expert-System)
+
