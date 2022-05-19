@@ -29,16 +29,16 @@ The knowledge base, which sits at the base of the expert system, contains a seri
 
 ```
 {
-	 "rules":{
-		"why":"transport",
-		"care_about":"what_people_think_of_me",
-		"want_think":"i_seem_rich",
-		"hope_you_like_debt":"love_it"
+	 "rules": {
+		"why": "transport",
+		"care_about": "what_people_think_of_me",
+		"want_think": "i_seem_rich",
+		"hope_you_like_debt": "love_it"
 	 },
-	 "car":{
-		"id":"mercedes_cls",
-		"name":"MERCEDES CLS",
-		"description":"The Mercedes CLS is a stylish, quick and comfortable executive saloon with room for four passengers and their luggage. The Mercedes CLS is a sleek, low-slung four-door luxury coupe that's designed to blend desirability with practicality."
+	 "car": {
+		"id": "mercedes_cls",
+		"name": "MERCEDES CLS",
+		"description": "The Mercedes CLS is a stylish, quick and comfortable executive saloon with room for four passengers and their luggage. The Mercedes CLS is a sleek, low-slung four-door luxury coupe that's designed to blend desirability with practicality."
 	 }
 },
 ```
