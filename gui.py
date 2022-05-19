@@ -138,7 +138,7 @@ class ResultPage(Page):
             r_label_2.pack(side="top", ipady=5)
 
             r_label_3 = tk.Label(frame.scrollable_frame,
-                                 text="While we're improve our knowledge base, you can use good ol' faithful over here!",
+                                 text="While we're working to improve our knowledge base, you can use good ol' faithful over here!",
                                  wraplength=375)
             r_label_3.pack(side="top", ipady=5)
 
